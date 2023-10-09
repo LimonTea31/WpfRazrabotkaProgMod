@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfRazrabotkaProgMod.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfRazrabotkaProgMod"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="770">
+    <Grid Width="760">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="99*"/>
+            <RowDefinition Height="272*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="variant" Content="Вариант 2" Margin="330,24,327,0" VerticalAlignment="Top" HorizontalAlignment="Center" RenderTransformOrigin="0.991,0.521" Width="103" Height="30" Padding="15,5" FontSize="15"/>
+        <Button x:Name="Zadanie1" Content="Задание 1" HorizontalAlignment="Left" Margin="60,51.202,0,0" VerticalAlignment="Top" Width="80" FontSize="15" Click="Zadanie1_Click" Grid.Row="1"/>
+        <Button x:Name="Zadanie2" Content="Задание 2" HorizontalAlignment="Left" Margin="183,51.202,0,0" VerticalAlignment="Top" Width="75" FontSize="15" Grid.Row="1" Click="Zadanie2_Click"/>
+        <Button x:Name="Zadanie3" Content="Задание 3" HorizontalAlignment="Left" Margin="320,51.202,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" FontSize="15" Click="Zadanie3_Click"/>
+        <Button x:Name="Zadanie4" Content="Задание 4" HorizontalAlignment="Left" Margin="459,51.202,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" FontSize="15" Click="Zadanie4_Click"/>
+        <Button x:Name="Zadanie5" Content="Задание 5" HorizontalAlignment="Left" Margin="610,51.202,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" FontSize="15" Click="Zadanie5_Click"/>
+
+    </Grid>
+</Window>
